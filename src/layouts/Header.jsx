@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="bg-[#1B1B1B] py-2 px-3.5">
-        <div className="container w-full h-12 mx-auto flex justify-between items-center">
+      <header className="bg-[#1B1B1B] py-2 px-3.5 fixed w-full">
+        <div className="w-full h-12 mx-auto flex justify-between items-center">
           <div className="flex items-center gap-x-3.5">
             <button className="p-1 border-none cursor-pointer">
               <img src={hamburger} alt="Menu Icon" />
