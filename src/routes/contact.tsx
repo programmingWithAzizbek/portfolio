@@ -1,9 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-function RouteComponent() {
-  return <div>Hello from Contact!</div>;
+function Contact() {
+  return (
+    <>
+      <div className="mt-12">Hello from Contact!</div>
+    </>
+  );
 }
 
 export const Route = createFileRoute("/contact")({
-  component: RouteComponent,
+  component: Contact,
 });

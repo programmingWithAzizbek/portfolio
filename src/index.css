@@ -3,8 +3,12 @@
 @theme {
   --color-backgroundAll: #1b1b1b;
   --color-customGreen: #39965f;
+  --color-customGreen2: #30714a;
   --color-line: #4b4b4b;
+  --color-hover1: #313131;
+  --color-textP1: #bbbbbb;
   --tracking-minusOne: -1px;
+  --max-width-w1: 600px;
 }
 
 body {

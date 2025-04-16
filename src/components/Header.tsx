@@ -22,7 +22,7 @@ export function Header({ toggleAside }: { toggleAside: () => void }) {
             <li>
               <Link
                 to="/"
-                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen transition-all duration-300"
+                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen hover:border-customGreen2 transition-all duration-300"
               >
                 Home
               </Link>
@@ -30,7 +30,7 @@ export function Header({ toggleAside }: { toggleAside: () => void }) {
             <li>
               <Link
                 to="/about"
-                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen transition-all duration-300"
+                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen hover:border-customGreen2 transition-all duration-300"
               >
                 About
               </Link>
@@ -38,7 +38,7 @@ export function Header({ toggleAside }: { toggleAside: () => void }) {
             <li>
               <Link
                 to="/projects"
-                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen transition-all duration-300"
+                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen hover:border-customGreen2 transition-all duration-300"
               >
                 Projects
               </Link>
@@ -46,17 +46,17 @@ export function Header({ toggleAside }: { toggleAside: () => void }) {
             <li>
               <Link
                 to="/contact"
-                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen transition-all duration-300"
+                className="pb-3 border-b-2 border-transparent [&.active]:border-customGreen hover:border-customGreen2 transition-all duration-300"
               >
                 Contact
               </Link>
             </li>
           </ul>
           <a
-            href="https:/github.com/programmingWithAzizbek"
+            href="https://github.com/programmingWithAzizbek"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-1"
+            className="p-1 rounded-full hover:bg-hover1 transition-colors duration-300"
           >
             <img src={githubIcon} alt="Icon of GitHub" width={24} height={24} />
           </a>
